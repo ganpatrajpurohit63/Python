@@ -1,4 +1,10 @@
-catry: 
+while True:
+    choice = input("\nPress Enter to continue or Q to quit: ").strip().upper()
+    if choice == "Q":
+        print("Exiting the calculator. Goodbye!")
+        break
+
+try: 
   a = int(input("Enter the First Number:"))
   b = int(input("Enter the Second Number:"))
   print("What kind of operation you want to perform. Press + for Addition \nPress - for Substraction \nPress * for multiplaction \nPress / for division")

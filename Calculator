@@ -1,4 +1,4 @@
-try: 
+catry: 
   a = int(input("Enter the First Number:"))
   b = int(input("Enter the Second Number:"))
   print("What kind of operation you want to perform. Press + for Addition \nPress - for Substraction \nPress * for multiplaction \nPress / for division")
@@ -13,7 +13,7 @@ try:
         print(f"The result is: {a*b}")
     case "/":
         print(f"The result is: {a/b}")
-    default:
+    case default:
         print(f"There is an error")
 
 except Exception as e:
